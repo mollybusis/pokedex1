@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/luy8lnt.css">
+</head>
+
+<body>
+
+  
+
+    <div class="outer">
+
+        <h1 class="child">
+            POKEDEX!
+        </h1>
+
+
+        <form class="child">
+            <label for="inputBox">Pokémon name or number:</label><br>
+            <input type="text" id="inputBox" name="inputBox">
+            <input type="submit" id="submit" value="Search">
+        </form>
+    </div>
+
+    <div id="entry" class="child, entryHide">
+
+        <img id="pokePic" src="pokemon/1.png">
+
+        <p id="pokeName"> Name: Bulbasaur </p>
+        <p id="pokeNum"> Number: 1 </p>
+        <p id="pokeType"> Type: Grass Poison </p>
+        <p id="pokeHeight"> Height: 4 </p>
+        <p id="pokeWeight"> Weight: 4 </p>
+        <p id="pokeFlavText"> xxx </p>
+
+    </div>
+
+    <div id="noEntry" class="entryHide">
+        
+        <p id="noEntryText">
+            Hmmm... Looks like we can't find that Pokémon.
+            Make sure you spelled it right! This Pokédex only
+            supports up to 721, Volcanion.
+        </p>
+
+    </div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
